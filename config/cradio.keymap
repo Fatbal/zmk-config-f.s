@@ -30,26 +30,25 @@
             bindings = <&kp TAB>;
         };
         
-            combo_ralt {
+         combo_ralt {
             timeout-ms = <50>;
             key-positions = <15 16>;
             bindings = <&kp RALT>;
         };
         
-                    combo_lalt {
+          combo_lalt {
             timeout-ms = <50>;
             key-positions = <12 13>;
             bindings = <&kp LALT>;
         };
         
-                           combo_lgui {
+         combo_lgui {
             timeout-ms = <50>;
             key-positions = <04 03>;
             bindings = <&kp LGUI>;
         };
-        
-        
-           combo_rgui {
+              
+         combo_rgui {
             timeout-ms = <50>;
             key-positions = <05 06>;
             bindings = <&kp RGUI>;
@@ -67,7 +66,7 @@
             bindings = <&kp LCTRL>;
         };
 	
-	combo_lctrl {
+	combo_bspc {
             timeout-ms = <50>;
             key-positions = <08 09>;
             bindings = <&kp BSPC>;
@@ -90,9 +89,9 @@
 
        		left_layer {
 		bindings = <
-		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5				&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
+		&kp ESC  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp F5				&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
 		&kp KP_SLASH    &kp KP_ASTERISK    &kp KP_MINUS      &kp KP_EQUAL     &kp HASH 		&kp TAB &kp NUM_4  &kp NUM_5 &kp NUM_6  &kp BSPC 
-		&kp ESC    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp TILDE2 			&kp KP_DOT &kp NUM_1 &kp NUM_2 &kp NUM_3  &kp CMMA 
+		&kp TAB    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp RA(F4) 			&kp KP_DOT &kp NUM_1 &kp NUM_2 &kp NUM_3  &kp CMMA 
 					    &mo 1  &kp SPC  					&kp RET &mo 2 
 		>;
 		};
