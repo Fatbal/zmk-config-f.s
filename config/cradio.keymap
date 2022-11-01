@@ -97,7 +97,7 @@
 		&kp ESC  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp F5					&kp LS(NUM_0) &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
 		&kp KP_SLASH    &kp KP_ASTERISK    &kp KP_MINUS      &kp KP_PLUS     &kp RA(GRAVE) 	&kp TAB &kp NUM_4  &kp NUM_5 &kp NUM_6  &kp BSPC 
 		&kp LSFT    &kp LCTRL 	&kp RALT &kp F11  &kp RA(F4) 					&kp KP_DOT &kp NUM_1 &kp NUM_2 &kp NUM_3  &kp CMMA 
-					    &trans  &kp SPC  					&kp RET &none 
+					    &mo 1  &kp SPC  					&kp RET &none 
 		>;
 		};
 		
@@ -106,7 +106,7 @@
 		&kp GRAVE  &kp LS(NUM_2) &kp LS(NUM_3)  &kp LS(NUM_6) &kp LS(NUM_5)		&kp PG_UP  &kp HOME &kp UP &kp END &kp RPRN 
 		&kp LS(GRAVE)  &kp RA(NUM_2)  &kp RA(NUM_3)  &kp NUBS  &kp LS(NUBS)		&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp BKSP
 		&mt LSFT EQUAL  &kp LS(EQUAL) &kp BSLH &kp LS(MINUS)   &kp LS(NUM_1)    	&kp UNDER &kp LEFT &kp DOWN &kp UP  &kp RIGHT
-					  &kg CAPS &kp MINUS  				&kp LC(LA(DEL))  &trans 
+					  &kg CAPS &kp MINUS  				&kp LC(LA(DEL))  &mo 2 
 		>;
 		};	
 		
