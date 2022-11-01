@@ -91,17 +91,17 @@
 		bindings = <
 		&kp ESC  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp F5					&kp LS(NUM_0) &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
 		&kp KP_SLASH    &kp KP_ASTERISK    &kp KP_MINUS      &kp KP_PLUS     &kp RA(GRAVE) 	&kp TAB &kp NUM_4  &kp NUM_5 &kp NUM_6  &kp BSPC 
-		&kp TAB    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp RA(F4) 			&kp KP_DOT &kp NUM_1 &kp NUM_2 &kp NUM_3  &kp CMMA 
+		&kp LSFT    &kp LCTRL 	&kp RALT &kp F11  &kp RA(F4) 					&kp KP_DOT &kp NUM_1 &kp NUM_2 &kp NUM_3  &kp CMMA 
 					    &mo 1  &kp SPC  					&kp RET &mo 2 
 		>;
 		};
 		
 		right_layer {
 		bindings = <
-		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp HOME &kp UP &kp END &kp RPRN 
-		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp LEFT  &kp DOWN  &kp RIGHT   &kp BKSP
-		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LEFT &kp DOWN &kp UP  &kp RIGHT
-					  &mo 3 &kp LCTL  				&kp SPC  &mo 2 
+		&kp GRAVE  &kp LS(NUM_2) &kp LS(NUM_3)  &kp LS(NUM_6) &kp LS(NUM_5)		&kp CRRT  &kp HOME &kp UP &kp END &kp RPRN 
+		&kp LS(GRAVE)  &kp RA(NUM_2)  &kp RA(NUM_3)  &kp NUBS  &kp LS(NUBS)		&kp MINUS &kp LEFT  &kp DOWN  &kp RIGHT   &kp BKSP
+		&mt LSFT EQUAL  &kp LS(EQUAL) &kp BSLH &kp LS(MINUS)   &kp LS(NUM_1)    	&kp UNDER &kp LEFT &kp DOWN &kp UP  &kp RIGHT
+					  &mo 3 &kp MINUS  				&kp LC(LA(DEL))  &mo 2 
 		>;
 		};	
 		
