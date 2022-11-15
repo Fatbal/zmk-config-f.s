@@ -26,19 +26,19 @@
         
          combo_tab {
             timeout-ms = <50>;
-            key-positions = <12 11>;
+            key-positions = <13 11>;
             bindings = <&kp TAB>;
         };
         
          combo_ralt {
             timeout-ms = <50>;
-            key-positions = <15 16>;
+            key-positions = <18 17>;
             bindings = <&kp RALT>;
         };
         
           combo_lalt {
             timeout-ms = <50>;
-            key-positions = <12 13>;
+            key-positions = <11 12>;
             bindings = <&kp LALT>;
         };
         
@@ -74,7 +74,7 @@
 	
 	combo_del {
             timeout-ms = <50>;
-            key-positions = <5 6>;
+            key-positions = <7 8>;
             bindings = <&kp DEL>;
         };
 	
@@ -104,7 +104,7 @@
 		bindings = <
 		&kp ESC         &kp NUM_2          &kp NUM_3         &kp NUM_4       &kp F5				&kp LS(NUM_0) &kp NUM_7  &kp NUM_8 &kp NUM_9  &kp NUM_0 
 		&kp KP_SLASH    &kp KP_ASTERISK    &kp KP_MINUS      &kp KP_PLUS     &kp RA(GRAVE) 			&kp TAB       &kp NUM_4  &kp NUM_5 &kp NUM_6  &kp BSPC 
-		&kp LSFT        &kp LCTRL 	   &kp RALT          &kp F11         &kp RA(F4) 			&kp KP_DOT    &kp NUM_1  &kp NUM_2 &kp NUM_3  &kp CMMA 
+		&kp LSFT        &kp LCTRL 	   &kp RALT          &kp F11         &kp LA(F4) 			&kp KP_DOT    &kp NUM_1  &kp NUM_2 &kp NUM_3  &kp CMMA 
 					    						&trans  &kp SPC   	&kp RET &none
 		>;
 		};
