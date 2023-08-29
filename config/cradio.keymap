@@ -102,7 +102,7 @@
 
        		left_layer {
 		bindings = <
-		&kp ESC         &kp NUM_2          &kp NUM_3         &kp NUM_4       &kp F5				&kp LS(NUM_0) &kp NUM_7  &kp NUM_8 &kp NUM_9  &kp NUM_0 
+		&kp ESC         &kp NUM_2          &kp LA(TAB)		&kp NUM_4       &kp F5				&kp LS(NUM_0) &kp NUM_7  &kp NUM_8 &kp NUM_9  &kp NUM_0 
 		&kp KP_SLASH    &kp KP_ASTERISK    &kp KP_MINUS      &kp KP_PLUS     &kp RA(GRAVE) 			&kp TAB       &kp NUM_4  &kp NUM_5 &kp NUM_6  &kp CMMA 
 		&kp LSFT        &kp LCTRL 	   &kp RALT          &kp F11         &kp LA(F4) 			&kp KP_DOT    &kp NUM_1  &kp NUM_2 &kp NUM_3  &kp BSPC 
 					    						&trans  &kp SPC   	&kp RET &none
